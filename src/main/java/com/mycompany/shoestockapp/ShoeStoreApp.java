@@ -2,10 +2,11 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.shoestockapp.Interfaces;
+package com.mycompany.shoestockapp;
 //import com.mycompany.shoestockapp.Dashboard.*;
 
 
+import com.mycompany.shoestockapp.Interfaces.ProductList;
 import com.mycompany.shoestockapp.Interfaces.Dashboard;
 import com.mycompany.shoestockapp.Authentication.RegistrationForm;
 import javax.swing.*;

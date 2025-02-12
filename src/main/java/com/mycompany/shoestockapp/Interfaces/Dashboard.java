@@ -5,6 +5,7 @@
 package com.mycompany.shoestockapp.Interfaces;
 
 
+import com.mycompany.shoestockapp.ShoeStoreApp;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

@@ -5,7 +5,7 @@
 package com.mycompany.shoestockapp.Interfaces;
 
 
-import com.mycompany.shoestockapp.Interfaces.ShoeStoreApp;
+import com.mycompany.shoestockapp.ShoeStoreApp;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
