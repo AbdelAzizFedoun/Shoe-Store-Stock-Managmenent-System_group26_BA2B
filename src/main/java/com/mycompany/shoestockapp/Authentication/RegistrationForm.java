@@ -5,7 +5,7 @@
 package com.mycompany.shoestockapp.Authentication;
 
 
-import com.mycompany.shoestockapp.ShoeStoreApp;
+import com.mycompany.shoestockapp.Interfaces.ShoeStoreApp;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
