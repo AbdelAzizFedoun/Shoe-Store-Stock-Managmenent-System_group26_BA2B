@@ -4,11 +4,6 @@
  */
 package com.mycompany.shoestockapp;
 
-/**
- *
- * @author Kapnang
- */
-
 
 import javax.swing.*;
 import java.awt.*;
@@ -42,7 +37,6 @@ public class Dashboard extends JPanel {
         categoryList = new JList<>(listModel);  // Initialize categoryList SECOND
         categoryList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 
-        // Add MouseListener AFTER categoryList is initialized
         categoryList.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -61,11 +55,8 @@ public class Dashboard extends JPanel {
         JScrollPane scrollPane = new JScrollPane(categoryList);
         add(scrollPane, BorderLayout.CENTER);
 
-        // ... (Rest of the Dashboard constructor code remains the same)
-
     }
-
-    // ... (Rest of the Dashboard class code - loadCategories(), showAddCategoryDialog(), etc.)
+    
 public void loadCategories() {
     listModel.removeAllElements(); // Clear before loading
 

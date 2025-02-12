@@ -2,12 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.shoestockapp;
+package com.mycompany.shoestockapp.Authentication;
 
-/**
- *
- * @author Kapnang
- */
+
+import com.mycompany.shoestockapp.ShoeStoreApp;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -29,11 +27,12 @@ public class LoginForm extends JPanel {
 
         setLayout(new BorderLayout());
         setBackground(new Color(240, 240, 240));
+        setPreferredSize(new Dimension(200, 200));
 
         JLabel titleLabel = new JLabel("ShoeStock");
         titleLabel.setFont(new Font("Arial", Font.BOLD, 28));
         titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
-        titleLabel.setBorder(BorderFactory.createEmptyBorder(20, 0, 20, 0));
+        titleLabel.setBorder(BorderFactory.createEmptyBorder(5, 0, 5, 0));
         add(titleLabel, BorderLayout.NORTH);
 
         JPanel centerPanel = new JPanel();
@@ -61,7 +60,7 @@ public class LoginForm extends JPanel {
         });
         emailField.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createLineBorder(Color.GRAY), BorderFactory.createEmptyBorder(5, 10, 5, 10)));
         emailField.setAlignmentX(Component.CENTER_ALIGNMENT);
-        emailField.setMaximumSize(new Dimension(300, 40));
+        emailField.setMaximumSize(new Dimension(100, 5));
         centerPanel.add(emailField);
         centerPanel.add(Box.createRigidArea(new Dimension(0, 10)));
 
@@ -84,9 +83,9 @@ public class LoginForm extends JPanel {
         });
         passwordField.setBorder(BorderFactory.createCompoundBorder(BorderFactory.createLineBorder(Color.GRAY), BorderFactory.createEmptyBorder(5, 10, 5, 10)));
         passwordField.setAlignmentX(Component.CENTER_ALIGNMENT);
-        passwordField.setMaximumSize(new Dimension(300, 40));
+        passwordField.setMaximumSize(new Dimension(100, 5));
         centerPanel.add(passwordField);
-        centerPanel.add(Box.createRigidArea(new Dimension(0, 20)));
+        centerPanel.add(Box.createRigidArea(new Dimension(0, 10)));
 
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER));
         buttonPanel.setAlignmentX(Component.CENTER_ALIGNMENT);

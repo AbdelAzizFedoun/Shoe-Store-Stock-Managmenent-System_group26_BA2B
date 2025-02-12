@@ -5,11 +5,8 @@
 package com.mycompany.shoestockapp;
 //import com.mycompany.shoestockapp.Dashboard.*;
 
-/**
- *
- * @author Kapnang
- */
 
+import com.mycompany.shoestockapp.Authentication.RegistrationForm;
 import javax.swing.*;
 import java.awt.*;
 import java.sql.Connection;

@@ -4,10 +4,7 @@
  */
 package com.mycompany.shoestockapp;
 
-/**
- *
- * @author Kapnang
- */
+
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
